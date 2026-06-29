@@ -7,7 +7,7 @@ import TaskTable from "./TaskTable";
 import TaskModal from "./TaskModal";
 import { LoadingIndicator } from "./LoadingIndicator";
 
-const API_URL = "http://localhost:8082/api/tasks";
+const API_URL = "https://new-task-manager-u4c9.onrender.com/api/tasks";
 
 const TaskManager = () => {
   const [tasks, setTasks] = useState([]);
